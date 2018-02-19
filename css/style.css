@@ -1,0 +1,737 @@
+/* ===================================== 
+   Page Styles
+======================================== */
+
+body {
+	font-family: 'Slabo 27px', serif;
+	background: ;
+	color: grey;
+}
+
+p {
+	font-family: 'Nunito', sans-serif;
+	font-size: 1em;
+	text-align: left;
+}
+
+.muted {
+	color: #C7CDCF;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	color: #333;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2.5em;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+.picture {
+	height: 20em;
+}
+
+a {
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.content-card {
+	margin-bottom: 3em;
+}
+
+.picture {
+	margin-bottom: 2em;
+}
+
+.border {
+	border-top: 2px solid lightgrey;
+	width: 90%;
+	margin: auto;
+}
+
+/* ===================================== 
+   Showcase
+======================================== */
+
+#showcase {
+	margin-bottom: 8em;
+}
+
+#showcase nav {
+	padding: 2em 0 2em;
+}
+
+#showcase nav ul li a {
+	color: #000;
+
+}
+
+#showcase .p1 {
+	background: url("../img/hands1.jpg") no-repeat center;
+	background-size: cover;
+	margin-left: 5%;
+	height: 35em;
+}
+
+#showcase .wrapper {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-auto-rows: minmax(300px, auto);
+}
+
+
+#showcase .content-title {
+	margin-bottom: 4em;
+	margin-top: 4em;
+}
+
+
+
+
+
+
+
+
+
+/* ===================================== 
+   Section A
+======================================== */
+
+#section-a {
+	margin-bottom: 6em;
+}
+
+#section-a h2 {
+	font-size: 2.5em;
+}
+
+#section-a .content-wrap {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-auto-rows: minmax(150px, auto);
+	grid-gap: 2em;
+}
+
+#section-a .content-title {
+	margin-bottom: 2em;
+}
+
+
+
+
+
+
+
+
+/* ===================================== 
+   Section B
+======================================== */
+
+#section-b {
+	margin-bottom: 6em;
+	margin-top: ;
+}
+
+#section-b h3 {
+	line-height: 1.2em;
+}
+
+#section-b h3:nth-child(2) {
+	margin-bottom: 1em;
+}
+
+#section-b .p2 {
+	background: url("../img/person1.jpg") no-repeat center;
+	background-size: cover;
+	height: 35em;
+	margin-bottom: 3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===================================== 
+   Section C
+======================================== */
+
+#section-c {
+	margin-bottom: ;
+}
+
+#section-c .p3 {
+	background: url("../img/person2.jpg") no-repeat center;
+	background-size: cover;
+	height: 25em;
+}
+
+#section-c .p4 {
+	background: url("../img/person3.jpg") no-repeat center;
+	background-size: cover;
+	height: 27em;
+}
+
+#section-c .p5 {
+	background: url("../img/person4.jpg") no-repeat center;
+	background-size: cover;
+}
+
+#section-c .content-wrap {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-auto-rows: minmax(150px, auto);
+}
+
+
+
+
+
+
+/* ===================================== 
+   Section D
+======================================== */
+
+#section-d {
+	margin-bottom: 4em;
+}
+
+#section-d .p6 {
+	background: url("../img/person5.jpg") no-repeat center;
+	background-size: cover;
+	height: 27em;
+}
+
+#section-d .p7 {
+	background: url("../img/person6.jpg") no-repeat center;
+	background-size: cover;
+}
+
+#section-d .p8 {
+	background: url("../img/person7.jpg") no-repeat center;
+	background-size: cover;
+	height: 25em;
+}
+
+#section-d .content-wrap {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-auto-rows: minmax(150px, auto);
+	margin-bottom: 4em;
+}
+
+
+
+
+
+/* ===================================== 
+   Section E
+======================================== */
+
+#section-e {
+	margin-bottom: 6em;
+	margin-top: 6em;
+}
+
+#section-e .p9 {
+	background: url("../img/person8.jpg") no-repeat center;
+	background-size: cover;
+	height: 35em;
+}
+
+#section-e .qoute {
+	font-style: italic;
+}
+
+#section-e .wrapper h3 {
+	color: #fff;
+	padding: ;
+}
+
+#section-e .wrapper .author {
+	text-align: center;
+}
+
+#section-e .wrapper {
+	color: #fff;
+	background-color: #DB6F86;
+	height: 20em;
+	text-align: center;
+	padding: 11%;
+}
+
+#section-e .wrapper-1,
+#section-e .wrapper-2 {
+	margin-right: 4%;
+	margin-left: 4%;
+}
+
+#section-e .wrapper-2 {
+	margin-bottom: 2em;
+}
+
+/* ===================================== 
+   Section F
+======================================== */
+
+#section-f {
+	margin-bottom: 4em;
+	margin-top: 6em;
+}
+
+#section-f .content-wrap {
+	margin-bottom: 4em;
+}
+
+#section-f .p10 {
+	background: url("../img/person9.jpg") no-repeat center;
+	background-size: cover;
+	height: 27em;
+}
+
+#section-f .p11 {
+	background: url("../img/person10.jpg") no-repeat center;
+	background-size: cover;
+}
+
+#section-f .p12 {
+	background: url("../img/person11.jpg") no-repeat center;
+	background-size: cover;
+	height: 25em;
+}
+
+
+
+
+
+
+/* ===================================== 
+   Section G
+======================================== */
+
+#section-g {}
+
+#section-g .p13 {
+	background: url("../img/person12.jpg") no-repeat center;
+	background-size: cover;
+	height: 30em;
+	margin-bottom: 0;
+}
+
+
+
+
+/* Contact Design */
+
+#section-g .contact-form {
+	margin-top: 5em;
+	margin-bottom: 5em;
+}
+
+#section-g .input-box {
+	position: relative;
+	box-sizing: border-box;
+	margin-bottom: 2em;
+}
+
+#section-g .input {
+	position: relative;
+	width: 75%;
+	height: 2.5em;
+	background: transparent;
+	border: none;
+	outline: none;
+	font-size: 1.2em;
+	border-bottom: 1px solid #C7CDCF;
+}
+
+#section-g .input-text {
+	position: absolute;
+	line-height: 2.4em;
+	font-size: 1.2em;
+	transition: .3s ease;
+	opacity: .5;
+}
+
+#section-g .focus .input-text {
+	transform: translateY(-24px);
+	font-size: .9em;
+	opacity: 1;
+	color: #6CD9CF;
+}
+
+#section-g textarea {
+	height: 10em !important;
+}
+
+#section-g .submit .link {
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+
+
+/*===================================================*/
+
+/* ===================================== 
+   Media Queries
+======================================== */
+
+@media (min-width: 768px) {
+
+
+	#section-c .picture,
+	#section-d .picture,
+	#section-f .picture {
+		width: 60%;
+		margin: auto;
+		margin-bottom: 2em;
+	}
+
+
+
+
+	/*	Section C */
+	#section-c .p3 {
+		height: 30em;
+	}
+
+	#section-c .p4 {
+		height: 35em;
+	}
+
+	#section-c .p5 {
+		height: 20em;
+	}
+
+
+	/*	Section D */
+	#section-d .p6 {
+		height: 35em;
+	}
+
+	#section-d .p7 {
+		height: 20em;
+	}
+
+	#section-d .p8 {
+		height: 30em;
+	}
+
+
+	/*	Section E */
+	#section-e .p9 {
+		height: 46em;
+	}
+
+	/*	Section F */
+	#section-f .p10 {
+		height: 35em;
+	}
+
+	#section-f .p11 {
+		height: 20em;
+	}
+
+	#section-f .p12 {
+		height: 30em;
+	}
+
+	/*	Section G */
+	#section-g .p13 {
+		height: 45em;
+	}
+
+
+
+}
+
+/*====================================================*/
+
+@media (min-width: 992px) {
+
+	#section-c .picture,
+	#section-d .picture,
+	#section-f .picture {
+		width: 100%;
+		margin: auto;
+		margin-bottom: 2em;
+	}
+
+	#showcase nav ul li a {
+		padding-top: 1em;
+		padding-left: 2em;
+	}
+
+
+	/*	Section A */
+	#section-a .content-wrap {
+		display: grid;
+		grid-template-columns: repeat(6, 1fr);
+		grid-auto-rows: minmax(150px, auto);
+		grid-gap: 7.5em;
+	}
+
+	#section-a .content-title {
+		grid-column: 1/4;
+	}
+
+	#section-a .content-text {
+		grid-column: 4/7;
+	}
+
+
+	/*	Section B */
+	#section-b .content-title {
+		padding-right: 40%;
+	}
+
+
+	/*	Section C */
+	#section-c .content-wrap {
+		display: grid;
+		grid-template-columns: repeat(2, 2fr);
+		grid-auto-rows: minmax(150px, auto);
+		grid-gap: 2em;
+		align-items: baseline;
+	}
+
+	#section-c .card-1 {
+		grid-column: 1/4;
+		padding: 0 10%;
+	}
+
+	#section-c .p3 {
+		width: 60%;
+	}
+
+
+	/*	Section D */
+	#section-d .content-wrap {
+		display: grid;
+		grid-template-columns: repeat(2, 2fr);
+		grid-auto-rows: minmax(150px, auto);
+		grid-gap: 2em;
+		align-items: baseline;
+	}
+
+	#section-d .card-1 {
+		grid-column: 1/4;
+		padding: 0 10%;
+	}
+
+	#section-d .picture {
+		width: 100%;
+	}
+
+	#section-d .p6 {
+		width: 60%;
+	}
+
+
+	/*	Section E */
+	#section-e {
+		margin-bottom: 2em;
+	}
+
+	#section-e .p9 {
+		height: 30em;
+		width: 50%;
+
+	}
+
+	#section-e .content-wrap {
+		display: grid;
+		grid-template-columns: repeat(10, 1fr);
+		grid-auto-rows: minmax(200px, auto);
+		grid-gap: 2em;
+
+	}
+
+	#section-e .wrapper-1 {
+		grid-column: 1/6;
+		grid-row: 1/3;
+		z-index: 1;
+
+		margin-left: 20%;
+		width: 100%;
+	}
+
+	#section-e .wrapper-2 {
+		grid-column: 6/11;
+		grid-row: ;
+
+		margin-right: 20%;
+		margin-left: 8%;
+		margin-bottom: ;
+		padding-top: 7%;
+	}
+
+	#section-e .wrapper {
+		grid-column: 1/11;
+		grid-row: 2;
+
+		margin-left: 5%;
+		padding-left: 50%;
+		padding-top: 6%;
+		padding-bottom: 5%;
+		margin-right: ;
+	}
+
+	#section-e .p9 {
+		height: 92%;
+		width: 80%;
+	}
+
+
+	#section-e .wrapper,
+	#section-e .wrapper .author {
+		text-align: inherit;
+	}
+
+
+
+	/*	Section F */
+	#section-f .content-wrap {
+		display: grid;
+		grid-template-columns: repeat(2, 2fr);
+		grid-auto-rows: minmax(150px, auto);
+		grid-gap: 2em;
+		align-items: baseline;
+	}
+
+	#section-f .card-1 {
+		grid-column: 1/4;
+		padding: 0 10%;
+	}
+
+	#section-f .p10 {
+		width: 60%;
+	}
+
+
+
+}
+
+
+
+/*====================================================*/
+
+@media (min-width: 1200px) {
+
+	#section-b,
+	#section-c,
+	#section-d,
+	#section-e {
+		margin-bottom: 8em;
+	}
+
+	.content-wrap p {
+		font-size: 1em;
+		padding-right: ;
+		text-align: left;
+	}
+
+	/*	Section C */
+	#section-c .content-wrap {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-auto-rows: minmax(150px, auto);
+		grid-gap: 2em;
+		align-items: ;
+	}
+
+	#section-c .card-1 {
+		grid-column: 1;
+		padding: 0;
+	}
+
+	#section-c .p3 {
+		width: 100%;
+	}
+
+	/*	Section D */
+	#section-d .content-wrap {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-auto-rows: minmax(150px, auto);
+		grid-gap: 2em;
+		align-items: ;
+	}
+
+	#section-d .card-1 {
+		grid-column: 1;
+		padding: 0;
+	}
+
+	#section-d .p6 {
+		width: 100%;
+	}
+
+
+	/*	Section G */
+	#section-e .wrapper-1 {
+		width: 90%
+	}
+
+
+	/*	Section F */
+	#section-f .content-wrap {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-auto-rows: minmax(150px, auto);
+		grid-gap: 2em;
+		align-items: ;
+	}
+
+	#section-f .card-1 {
+		grid-column: 1;
+		padding: 0;
+	}
+
+	#section-f .p10 {
+		width: 100%;
+	}
+
+	/*	Section G */
+	#section-g {
+		display: grid;
+		grid-template-columns: 2fr 2fr;
+		grid-auto-rows: minmax(200px, auto);
+		margin-top: 6em;
+	}
+
+	#section-g .content-wrap {
+		padding-left: 20%;
+	}
+
+	#section-g .contact-card {
+		padding-top: 10%;
+	}
+
+
+
+}
