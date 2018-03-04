@@ -36,11 +36,11 @@ $Btext.waypoint(function () {
 
 $C.waypoint(function () {
 	$C.addClass('js-show fadeInUp animated');
-}, {offset: '40%'});
+}, {offset: '50%'});
 
 $D.waypoint(function () {
 	$D.addClass('js-show fadeInUp animated');
-}, {offset: '40%'});
+}, {offset: '50%'});
 
 $Epic.waypoint(function () {
 	$Epic.addClass('js-show fadeInUp animated');
@@ -52,7 +52,7 @@ $Ewrap.waypoint(function () {
 
 $F.waypoint(function () {
 	$F.addClass('js-show fadeInUp animated');
-}, {offset: '40%'});
+}, {offset: '50%'});
 
 $G.waypoint(function () {
 	$G.addClass('js-show fadeInLeft animated');
