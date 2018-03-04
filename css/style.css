@@ -61,6 +61,10 @@ a {
 	margin: auto;
 }
 
+.js-show {
+	opacity: 1;
+}
+
 /* ===================================== 
    Showcase
 ======================================== */
@@ -97,9 +101,10 @@ a {
 	margin-top: 4em;
 }
 
-
-
-
+#showcase .content-title,
+#showcase .wrapper {
+	opacity: 0;
+}
 
 
 
@@ -128,6 +133,9 @@ a {
 	margin-bottom: 2em;
 }
 
+#section-a .content-wrap {
+	opacity: 0;
+}
 
 
 
@@ -159,6 +167,10 @@ a {
 	margin-bottom: 3em;
 }
 
+#section-b .p2,
+#section-b .content-title {
+	opacity: 0;
+}
 
 
 
@@ -201,6 +213,10 @@ a {
 	grid-auto-rows: minmax(150px, auto);
 }
 
+#section-c .content-wrap {
+	opacity: 0;
+}
+
 
 
 
@@ -237,6 +253,12 @@ a {
 	grid-auto-rows: minmax(150px, auto);
 	margin-bottom: 4em;
 }
+
+#section-d .content-wrap {
+	opacity: 0;
+}
+
+
 
 
 
@@ -288,6 +310,14 @@ a {
 	margin-bottom: 2em;
 }
 
+#section-e .p9,
+#section-e .wrapper,
+#section-e .wrapper-2 {
+	opacity: 0;
+}
+
+
+
 /* ===================================== 
    Section F
 ======================================== */
@@ -319,7 +349,9 @@ a {
 }
 
 
-
+#section-f .content-wrap {
+	opacity: 0;
+}
 
 
 
@@ -392,6 +424,10 @@ a {
 }
 
 
+#section-g .content-wrap,
+#section-g .p13 {
+	opacity: 0;
+}
 
 
 /*===================================================*/
