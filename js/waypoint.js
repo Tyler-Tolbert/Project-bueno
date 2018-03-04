@@ -14,9 +14,9 @@ var $Gpic = $('#section-g .p13');
 
 // The waypoints
 
-$showcaseTitle.waypoint(function () {
-	$showcaseTitle.addClass('js-show fadeInLeft animated');
-}, { offset: '60%'});
+setTimeout(function () {
+    $showcaseTitle.show().addClass('js-show fadeIn animated');}, 1000
+);
 
 $showcase.waypoint(function () {
 	$showcase.addClass('js-show fadeInRightBig animated');
